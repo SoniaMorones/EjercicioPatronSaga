@@ -29,7 +29,7 @@ public class PaymentFacade implements IPaymentFacade {
         PaymentEventTO paymentEvent = new PaymentEventTO();
         
 
-        // kafkaTemplate.send("payment_events", paymentEvent);
+        //k kafkaTemplate.send("payment_events", paymentEvent);
         return paymentEvent;
     }
 }
